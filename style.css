@@ -214,7 +214,8 @@ body {
   .img_card__container{
     grid-area: content;
     grid-template-columns: auto;
-    padding-left: 7%;
+    /* margin-left: 10%; */
+    justify-items: center;  
   }
   .footer{
     grid-area: footer;
