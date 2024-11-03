@@ -128,7 +128,8 @@ body {
     margin-left:5%;
     margin-top: 10px;
     margin-bottom: 20px;
-    
+    grid-template-columns: repeat(4, 1fr);
+
   }
   .img_card__container{
     grid-area: content;
