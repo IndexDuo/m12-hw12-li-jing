@@ -117,6 +117,7 @@ body {
 @media screen and (max-width: 1100px) {
 .body-container{
   grid-template-area: 'header' 'nav' 'content' 'footer';
+  color:red;
 }
 
 .header{
