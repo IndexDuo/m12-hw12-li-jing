@@ -78,7 +78,6 @@ body {
 }
 
 .img_card__container{
-  /* color:red; */
   grid-area: content;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -113,14 +112,12 @@ body {
 }
 
 
-//change back to 1100
 @media screen and (max-width: 1100px) {
   .body-container{
     grid-template-columns: 1fr;
     grid-template-areas: 'header' 'nav' 'content' 'footer';
     color:red;
   }
-
   .header{
     grid-area: header;
   }
@@ -129,6 +126,7 @@ body {
   }
   .img_card__container{
     grid-area: content;
+    grid-template-columns: auto;
   }
   .footer{
     grid-area: footer;
