@@ -131,11 +131,14 @@ body {
 
   }
 
-  .nav__container{
+  .nav__container {
     display: grid;
-    grid-template-columns: 1fr;
-
-  }
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); /* Adjust sizes */
+    gap: 10px; /* Space between links */
+    width: 100%;
+    justify-items: center;
+    padding: 12px 0;
+}
 
 
   .img_card__container{
