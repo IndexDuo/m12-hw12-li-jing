@@ -128,10 +128,20 @@ body {
     margin-left:5%;
     margin-top: 10px;
     margin-bottom: 20px;
-    display: grid;
-    grid-template-columns: 2fr;
 
   }
+
+  .nav__container{
+    display:flex;
+    justify-content: space-around;
+    width:100%;
+    
+
+
+
+  }
+
+
   .img_card__container{
     grid-area: content;
     grid-template-columns: auto auto;
