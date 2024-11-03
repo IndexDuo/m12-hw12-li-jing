@@ -149,13 +149,16 @@ body {
   }
   .header{
     grid-area: header;
+    padding: 30px;
   }
   .nav{
     grid-area: nav;
+    padding-right:5%;
   }
   .img_card__container{
     grid-area: content;
     grid-template-columns: auto;
+    padding-left: 7%;
   }
   .footer{
     grid-area: footer;
