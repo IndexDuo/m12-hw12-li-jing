@@ -161,10 +161,13 @@ body {
 
   .header{
     grid-area: header;
+    
   }
   .nav{
     grid-area: nav;
     margin-left:5%;
+    margin-top: 10px;
+    margin-bottom: 20px;
   }
   .img_card__container{
     grid-area: content;
