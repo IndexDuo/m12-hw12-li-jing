@@ -132,13 +132,10 @@ body {
   }
 
   .nav__container {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); /* Adjust sizes */
-    gap: 10px; /* Space between links */
+    display: flex; /* Switch to flexbox for horizontal layout */
+    justify-content: space-around; /* Distribute items horizontally */
     width: 100%;
-    justify-items: center;
-    padding: 12px 0;
-}
+  }
 
 
   .img_card__container{
