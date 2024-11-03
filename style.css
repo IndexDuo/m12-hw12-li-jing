@@ -42,6 +42,7 @@ body {
 
 .nav{
   grid-area: nav;
+  max-width: 200px;
   
 }
 
